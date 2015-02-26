@@ -1,0 +1,16 @@
+[user]
+  name = fakestarbaby
+  email = fakestarbaby@gmail.com
+[color]
+  ui = auto
+[alias]
+  b = branch
+  c = checkout
+  d = diff
+  g = grep
+  l = log
+  s = status
+[push]
+  default = simple
+[core]
+  editor = subl -w
