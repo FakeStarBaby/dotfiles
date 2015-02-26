@@ -5,6 +5,7 @@ export LSCOLORS=gxfxcxdxbxegedabagacad
 
 #a aliases
 alias be="bundle exec"
+alias dotfiles="cd ~/.homesick/repos/dotfiles"
 alias g="git"
 alias h="heroku"
 alias ls="ls -Ga"
