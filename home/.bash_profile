@@ -5,6 +5,7 @@ export LSCOLORS=gxfxcxdxbxegedabagacad
 
 # aliases
 alias be="bundle exec"
+alias cache.start="~/Developer/misc/Unity/CacheServer/RunOSX.command"
 alias dotfiles="cd ~/.homesick/repos/dotfiles"
 alias g="git"
 alias h="heroku"
