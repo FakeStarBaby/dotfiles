@@ -3,7 +3,7 @@ export EDITOR="subl -w"
 export LANG=ja_JP.UTF-8
 export LSCOLORS=gxfxcxdxbxegedabagacad
 
-#a aliases
+# aliases
 alias be="bundle exec"
 alias dotfiles="cd ~/.homesick/repos/dotfiles"
 alias g="git"
