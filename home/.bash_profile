@@ -10,6 +10,8 @@ alias dotfiles="cd ~/.homesick/repos/dotfiles"
 alias g="git"
 alias h="heroku"
 alias ls="ls -Ga"
+alias pg.start="pg_ctl start -D /usr/local/var/postgres"
+alias pg.stop="pg_ctl stop -D /usr/local/var/postgres"
 alias r="rails"
 alias resource="source ~/.bash_profile"
 
