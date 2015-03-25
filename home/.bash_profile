@@ -30,8 +30,5 @@ export PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 # rbenv
 eval "$(rbenv init -)"
 
-# phpbrew
-source ~/.phpbrew/bashrc
-
 # android sdk
 export PATH=$PATH:/Applications/Google/Android\ SDK/platform-tools
