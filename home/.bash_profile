@@ -4,6 +4,8 @@ export LANG=ja_JP.UTF-8
 export LSCOLORS=gxfxcxdxbxegedabagacad
 
 # aliases
+alias apache.start="sudo apachectl start"
+alias apache.stop="sudo apachectl stop"
 alias be="bundle exec"
 alias cache.start="~/Developer/misc/Unity/CacheServer/RunOSX.command"
 alias dotfiles="cd ~/.homesick/repos/dotfiles"
