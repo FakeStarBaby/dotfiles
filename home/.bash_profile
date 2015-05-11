@@ -29,8 +29,9 @@ function _update_ps1() {
 }
 export PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 
-# rbenv
-eval "$(rbenv init -)"
+# anyenv
+export PATH="$HOME/.anyenv/bin:$PATH"
+eval "$(anyenv init -)"
 
 # android sdk
 export PATH=$PATH:/Applications/Google/Android\ SDK/platform-tools
