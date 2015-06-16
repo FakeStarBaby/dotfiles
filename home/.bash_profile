@@ -39,3 +39,7 @@ export PATH=$PATH:/Applications/Google/Android\ SDK/platform-tools
 # node.js
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
