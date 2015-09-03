@@ -5,6 +5,7 @@
   ui = auto
 [alias]
   b = branch
+  r = reset
   c = checkout
   d = diff
   g = grep -n
