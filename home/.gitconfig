@@ -4,14 +4,25 @@
 [color]
   ui = auto
 [alias]
+  a = add
   b = branch
-  r = reset
   c = checkout
   d = diff
   g = grep -n
   l = log
+  r = reset
   s = status
 [push]
   default = simple
 [core]
-  editor = subl -w
+  editor = atom -w
+[rebase]
+  autostash = true
+[commit]
+  template = ~/.gitmessage
+[pager]
+  log = diff-highlight | less
+  show = diff-highlight | less
+  diff = diff-highlight | less
+[diff]
+  compactionHeuristic = true
