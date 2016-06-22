@@ -1,0 +1,11 @@
+
+
+# - Add esa LLC to copyright
+# - Bump up ruby version to 2.3
+# - Fix image size of instagram in :iphone:
+# - Introduce 'database_rewinder' gem
+# - Move user search box to footer
+# - Refactor; partialize duplicate content :)
+# - Remove unnecessary test cases
+# - R.I.P genuineblue
+# - Tweak :christmas_tree: size
