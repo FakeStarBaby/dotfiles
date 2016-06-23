@@ -22,6 +22,7 @@ alias ls="ls -Ga"
 alias mysql.start="mysql.server start"
 alias mysql.status="mysql.server status"
 alias mysql.stop="mysql.server stop"
+alias projects="cd ~/Developer/projects"
 alias r="rails"
 alias resource="source ~/.bash_profile"
 
