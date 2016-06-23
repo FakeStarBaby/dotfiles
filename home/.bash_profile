@@ -1,5 +1,5 @@
 # exports
-export EDITOR="atom -w"
+export EDITOR="subl -w"
 export LANG=ja_JP.UTF-8
 export LSCOLORS=gxfxcxdxbxegedabagacad
 

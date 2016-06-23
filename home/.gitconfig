@@ -15,7 +15,7 @@
 [push]
   default = simple
 [core]
-  editor = atom -w
+  editor = subl -w
 [rebase]
   autostash = true
 [commit]
