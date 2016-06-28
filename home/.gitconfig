@@ -16,6 +16,7 @@
   default = simple
 [core]
   editor = subl -w
+  excludesfile = ~/.gitignore_global
 [rebase]
   autostash = true
 [commit]
