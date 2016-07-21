@@ -43,6 +43,9 @@ export PATH=$PATH:/usr/local/share/git-core/contrib/diff-highlight
 export PATH="$HOME/.anyenv/bin:$PATH"
 eval "$(anyenv init -)"
 
+# direnv
+eval "$(direnv hook bash)"
+
 # android sdk
 export ANDROID_SDK_ROOT="/usr/local/opt/android-sdk"
 export PATH=$ANDROID_SDK_ROOT:$PATH
