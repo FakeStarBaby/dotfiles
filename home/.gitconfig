@@ -12,6 +12,8 @@
   l = log
   r = reset
   s = status
+  staging = !~/Developer/bin/git-staging.sh
+  production = !~/Developer/bin/git-production.sh
 [push]
   default = simple
 [core]
