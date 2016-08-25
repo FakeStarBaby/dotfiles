@@ -52,7 +52,7 @@ export PATH=$ANDROID_SDK_ROOT:$PATH
 export PATH=$ANDROID_SDK_ROOT/tools:$PATH
 
 # android ndk
-export NDK_ROOT="/usr/local/Cellar/android-ndk-r10d/r10d"
+export NDK_ROOT="/usr/local/Cellar/android-ndk-r10e/r10e"
 export PATH=$NDK_ROOT:$PATH
 
 # ant
