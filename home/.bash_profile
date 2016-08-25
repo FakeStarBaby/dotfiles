@@ -60,9 +60,9 @@ export ANT_ROOT="/usr/local/Cellar/ant/1.9.7/bin"
 export PATH=$ANT_ROOT:$PATH
 
 # cocos2d-js
-export COCOS_CONSOLE_ROOT="~/Developer/lib/cocos2d-x-3.11.1/tools/cocos2d-console/bin"
+export COCOS_CONSOLE_ROOT="~/Developer/lib/cocos2d-x-3.12/tools/cocos2d-console/bin"
 export PATH=$COCOS_CONSOLE_ROOT:$PATH
 export COCOS_X_ROOT="~/Developer/lib"
 export PATH=$COCOS_X_ROOT:$PATH
-export COCOS_TEMPLATES_ROOT="~/Developer/lib/cocos2d-x-3.11.1/templates"
+export COCOS_TEMPLATES_ROOT="~/Developer/lib/cocos2d-x-3.12/templates"
 export PATH=$COCOS_TEMPLATES_ROOT:$PATH
