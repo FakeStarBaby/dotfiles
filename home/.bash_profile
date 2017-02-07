@@ -66,3 +66,6 @@ export COCOS_X_ROOT="~/Developer/lib"
 export PATH=$COCOS_X_ROOT:$PATH
 export COCOS_TEMPLATES_ROOT="~/Developer/lib/cocos2d-x-3.12/templates"
 export PATH=$COCOS_TEMPLATES_ROOT:$PATH
+
+export NVM_DIR="/Users/fakestarbaby/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
