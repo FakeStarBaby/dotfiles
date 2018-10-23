@@ -1,6 +1,6 @@
 [user]
-  name = fakestarbaby
-  email = fakestarbaby@gmail.com
+	name = fakestarbaby
+	email = fakestarbaby@gmail.com
 [color]
   ui = auto
 [alias]
@@ -10,22 +10,38 @@
   d = diff
   g = grep -n
   l = log
+  ls = log --oneline
   r = reset
   s = status
+  f = fetch --prune
+  p = pull-request -o
+  o = !hub browse
+  pb= !hub browse -- pull/$(git symbolic-ref --short HEAD)
   staging = !~/Developer/bin/git-staging.sh
   production = !~/Developer/bin/git-production.sh
 [push]
   default = simple
 [core]
-  editor = subl -w
-  excludesfile = ~/.gitignore_global
+	editor = vim -c \"set fenc=utf-8\"
+	excludesfile = /Users/fakestarbaby/.gitignore_global
 [rebase]
   autostash = true
 [commit]
-  template = ~/.gitmessage
+	template = ~/.gitmessage
 [pager]
   log = diff-highlight | less
   show = diff-highlight | less
   diff = diff-highlight | less
 [diff]
   compactionHeuristic = true
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge --skip -- %f
+	process = git-lfs filter-process --skip
+	required = true
