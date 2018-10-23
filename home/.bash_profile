@@ -27,6 +27,7 @@ alias pg.stop="pg_ctl stop -D /usr/local/var/postgres"
 alias projects="cd ~/Developer/projects"
 alias r="rails"
 alias resource="source ~/.bash_profile"
+alias git="hub"
 
 # powerline
 function _update_ps1() {
