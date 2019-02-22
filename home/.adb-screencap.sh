@@ -1,0 +1,1 @@
+adb shell screencap /sdcard/`date +%Y%m%d%H%M`.png && adb pull /sdcard/`date +%Y%m%d%H%M`.png ~/Downloads/`date +%Y%m%d%H%M%S`.png
