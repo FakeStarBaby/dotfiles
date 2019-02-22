@@ -41,6 +41,10 @@ source ~/.git-prompt.sh
 source ~/.git-completion.bash
 export PATH=$PATH:/usr/local/share/git-core/contrib/diff-highlight
 
+# rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
 # direnv
 eval "$(direnv hook bash)"
 
