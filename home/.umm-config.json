@@ -1,0 +1,32 @@
+{
+  "scopes": {
+    "@umm": {
+      "repository": {
+        "type": "git",
+        "host": "github.com",
+        "group": "umm-projects",
+        "user": "git"
+      },
+      "author": {
+        "name": "Yoshinori Hirasawa",
+        "email": "fakestarbaby@gmail.com",
+        "url": "https://github.com/fakestarbaby"
+      },
+      "license": "MIT"
+    },
+    "@kidsstar": {
+      "repository": {
+        "type": "git",
+        "host": "github.com",
+        "group": "kidsstar",
+        "user": "git"
+      },
+      "author": {
+        "name": "KidsStar Inc.",
+        "email": "system@kidsstar.co.jp",
+        "url": "https://www.kidsstar.co.jp"
+      },
+      "license": "UNLICENSED"
+    }
+  }
+}
