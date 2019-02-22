@@ -41,10 +41,6 @@ source ~/.git-prompt.sh
 source ~/.git-completion.bash
 export PATH=$PATH:/usr/local/share/git-core/contrib/diff-highlight
 
-# anyenv
-export PATH="$HOME/.anyenv/bin:$PATH"
-eval "$(anyenv init -)"
-
 # direnv
 eval "$(direnv hook bash)"
 
