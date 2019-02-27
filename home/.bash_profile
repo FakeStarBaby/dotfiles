@@ -29,6 +29,7 @@ alias r="rails"
 alias resource="source ~/.bash_profile"
 alias git="hub"
 alias adbsc="~/.homesick/repos/dotfiles/home/.adb-screencap.sh"
+alias adbc="~/.homesick/repos/dotfiles/home/.adb-connect.sh"
 
 # powerline
 function _update_ps1() {
