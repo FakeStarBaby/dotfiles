@@ -49,7 +49,7 @@ eval "$(rbenv init -)"
 eval "$(direnv hook bash)"
 
 # android sdk
-export ANDROID_SDK_ROOT="/usr/local/opt/android-sdk"
+export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
 export PATH=$ANDROID_SDK_ROOT:$PATH
 export PATH=$ANDROID_SDK_ROOT/tools:$PATH
 
