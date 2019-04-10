@@ -15,6 +15,7 @@
   s = status
   f = fetch --prune
   p = pull-request -o
+  dp = pull-request --draft -o
   o = !hub browse
   pb= !hub browse -- pull/$(git symbolic-ref --short HEAD)
   staging = !~/Developer/bin/git-staging.sh
