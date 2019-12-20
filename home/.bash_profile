@@ -30,6 +30,7 @@ alias resource="source ~/.bash_profile"
 alias git="hub"
 alias adbsc="~/.homesick/repos/dotfiles/home/.adb-screencap.sh"
 alias adbc="~/.homesick/repos/dotfiles/home/.adb-connect.sh"
+alias adbs="~/.homesick/repos/dotfiles/home/.adb-sync.sh"
 
 # powerline
 function _update_ps1() {
