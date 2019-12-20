@@ -31,6 +31,7 @@ alias git="hub"
 alias adbsc="~/.homesick/repos/dotfiles/home/.adb-screencap.sh"
 alias adbc="~/.homesick/repos/dotfiles/home/.adb-connect.sh"
 alias adbs="~/.homesick/repos/dotfiles/home/.adb-sync.sh"
+alias ugul="~/.homesick/repos/dotfiles/home/.unity-guid-unused-listup.sh"
 
 # powerline
 function _update_ps1() {
