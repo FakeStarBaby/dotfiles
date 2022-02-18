@@ -81,3 +81,6 @@ export NVM_DIR="/Users/fakestarbaby/.nvm"
 # nodebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 export PATH=$HOME/.nodebrew/current/bin:$PATH
+
+# diff-highlight
+export PATH="$PATH:/opt/homebrew/share/git-core/contrib/diff-highlight"
