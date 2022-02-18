@@ -33,6 +33,9 @@ alias adbc="~/.homesick/repos/dotfiles/home/.adb-connect.sh"
 alias adbs="~/.homesick/repos/dotfiles/home/.adb-sync.sh"
 alias ugul="~/.homesick/repos/dotfiles/home/.unity-guid-unused-listup.sh"
 
+# pip
+export PATH=/Users/fakestarbaby/Library/Python/3.8/bin:$PATH
+
 # powerline
 function _update_ps1() {
   export PS1="$(~/.powerline-shell.py $? 2> /dev/null)"
