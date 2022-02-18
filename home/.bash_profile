@@ -77,3 +77,7 @@ export PATH=$COCOS_TEMPLATES_ROOT:$PATH
 
 export NVM_DIR="/Users/fakestarbaby/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# nodebrew
+eval "$(/opt/homebrew/bin/brew shellenv)"
+export PATH=$HOME/.nodebrew/current/bin:$PATH
